@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+
+    <h1>Imagens dinâmicas</h1>
+    <p>Abra em vários dispositivos para ver!! </p>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="Imagens/imagens1.png" type="image/png">
+
+        <source media="(max-width:1050px )" srcset="Imagens/Imagens2.png" type="image/png">
+
+        <img src="Imagens/Imagens3.png" alt="Imagem 2">
+    </picture>
+
+    <h1>reproduzino audios</h1>
+    <p>vamos aprender a colocar audios no nosso site</p>
+    <!--forma 1
+    <audio src="midia/guanacast-33.mp3" controls autoplay></audio>
+    -->>
+
+    <!--forma 1-->>
+    <audio preload="metadata" controls >
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+    </audio>
+    
+    
+    
+</body>
+</html>

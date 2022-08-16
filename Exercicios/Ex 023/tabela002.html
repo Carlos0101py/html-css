@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas grandes</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        th{
+            background-color: darkgray;
+            color: white;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <!--
+        tabelas grandes
+        table
+          thead
+            TR TD TH
+          tbody
+            TR TD TH
+          tfoot
+            TR TD TH
+    -->
+
+    <table>
+        <caption>tabela das populações</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estados</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São paulo</td>
+                <td>00000000</td>
+            </tr>
+            <tr>
+                <td>Rio de janeiro</td>
+                <td>00000000</td>
+            </tr>
+            <tr>
+                <td>Belo horizonte</td>
+                <td>00000000</td>
+            </tr>
+            <tr>
+                <td>recife</td>
+                <td>00000000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">total</th>
+                <td>0000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
